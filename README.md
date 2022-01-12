@@ -39,10 +39,12 @@ En mi caso la aplicación se ejecuta relativamente rápido ya que tarda unos esc
 La primera pregunta que nos deberíamos hacer es :¿Que está causando el cuello de botella? Para ello podríamos usar
 un perfilador para ver que parte del código es la que genera el principal cuello de botella. A continuación se pueden
 realizar varias optimizaciones para que el código se ejecute más rápido. Algunas que se me ocurren son:
+
     1. Limpiar el código
     2. Usar StringBuilder en lugar de "+" para strings largos
     3. En el caso de los "for" si iteramos un array es mejor declarar la longitud del array como una variable a parte, fuera del bucle
     4. Hacer uso de la cache
+    
 Otro enfoque distinto que no he mencionado es la opción del procesado multihilo, es decir ejecutar la aplicación en 
 distintos hilos del procesador para que se ejecute a una mayor velocidad.
 
