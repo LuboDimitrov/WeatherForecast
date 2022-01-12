@@ -49,6 +49,7 @@ distintos hilos del procesador para que se ejecute a una mayor velocidad.
 ## 8. ¿Cuánto tiempo has invertido para implementar la solución?
 
 El tiempo invertido lo he divido en diversas categorias
+
     1. Identificación del problema y pensar la solución: 45 min - 1 hora.
     2. Comprobar el funcionamiento del programa: 15 min.
     3. Programar la solución: 4 horas 
@@ -58,6 +59,6 @@ El tiempo invertido lo he divido en diversas categorias
 
 ## 9. ¿Crees que en un escenario real valdría la pena dedicar tiempo a realizar esta refactorización?
 
-Aunque lo ideal sería siempre refactorizar el código para que sea más legible y mantenible, la realidad es que no siempre es posible ya que tenenos que tener en cuenta facotres como el presupuesto del proyecto, la importancia de la funcionalidad y el tiempo disponible.
+Personalmente pienso que lo ideal sería siempre refactorizar el código para que sea más legible y mantenible, pero la realidad es que no siempre es posible ya que tenenos que tener en cuenta facotres como el presupuesto del proyecto, la importancia de la funcionalidad, el tiempo disponible además de las incidencias imprevistas que pueden surgir durante el proyecto.
 
 
