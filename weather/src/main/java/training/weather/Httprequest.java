@@ -20,8 +20,7 @@ public class Httprequest {
         
         HttpRequestFactory rf = new NetHttpTransport().createRequestFactory();
         HttpRequest request = rf.buildGetRequest(new GenericUrl(URL));
-        String requested = request.execute().parseAsString();
-        return requested;
+        return request.execute().parseAsString();
     }  
     
 }

@@ -2,6 +2,8 @@ package training.weather;
 
 import java.io.IOException;
 import java.util.Date;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.junit.Test;
 import org.junit.Before;
 import static org.junit.Assert.*;
@@ -25,10 +27,14 @@ public class WeatherForecastTest {
     }
     
     @Test
-    public void forecastTest() throws IOException {
+    public void forecastTest() {
 
-        forecast = weatherForecast.getCityWeather();
-        assertEquals(forecast,weatherForecast.getCityWeather());
+        try {
+            forecast = weatherForecast.getCityWeather();
+            assertEquals(forecast,weatherForecast.getCityWeather());
+        } catch (Exception ex) {
+            Logger.getLogger(WeatherForecastTest.class.getName()).log(Level.SEVERE,"Got an exception.", ex);
+        }
     }
     
 
